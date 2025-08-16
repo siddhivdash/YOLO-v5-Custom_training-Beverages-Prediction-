@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Apple', 'Peach', 'Pineapple']
+
+roboflow:
+  workspace: siddhis-workspace-8ugkg
+  project: beverage-detection-nbpjr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/siddhis-workspace-8ugkg/beverage-detection-nbpjr/dataset/1

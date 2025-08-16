@@ -1,0 +1,239 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{\tiny$\bullet$}}}}}
+\newcommand{\descript}[1]{\color{subheadings}\raggedright\hspace*{0pt}\hfill\vspace{3pt}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+
+    \begin{center}
+    
+      {\Huge \scshape Siddhi Vinayak Dash} \\\vspace{4pt}
+       DOB: 01 April 2005 \quad  Bhubaneshwar, Odisha   \\ \vspace{4pt}
+
+    \small \raisebox{-0.1\height}\faPhone\ (+91) 7684931821 ~ \href{mailto:siddhudash21@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{siddhudash21@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/siddhi-v-dash/}{\raisebox{-0.2\height}\faLinkedin\ \underline{siddhivdash}}  ~
+    \href{https://github.com/siddhivdash}{\raisebox{-0.2\height}\faGithub\ \underline{siddhivdash}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SRM Institute of Science and Technology}{September 2021 -- Present}
+      {Bachelor of Technology in Computer Science and Engineering (CGPA - 8.08)}{Chennai, Tamil Nadu}
+    \resumeSubheading
+      {Vikash Residential School, Bargarh}{May 2023}
+      {AISCCE -- CBSE, Science (PCM) (Percentage - 81.2\%)}{Bargarh, Odisha}
+    \resumeSubheading
+      {Vikash Residential School, Bargarh}{May 2021}
+      {AISSE -- CBSE (Percentage - 92\%)}{Bargarh, Odisha}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-5pt, parsep=5pt]
+                \item\small Machine Learning
+                \item Deep Learning
+                \item Artificial Intelligence
+                \item Probability and Statistics
+                \item Linear Algebra and Calculus
+                \item Data Structures and Algorithms
+                \item Design and Analysis of Algorithms
+                
+                
+                
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    
+    
+%-----------Experience-----------%
+\section{Work Experience}
+
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Mahanadi Coalfields Limited (MCL)}{June 2025 -- July 2025}
+    {Data Science Intern \href{https://drive.google.com/drive/folders/1jny0SnAPli2gMpui4jS-LOJ78etDsBzq?usp=sharing}{[Certificate]}}{Sambalpur, Odisha}
+    \resumeItemListStart
+      \resumeItem{Built an intelligent HR chatbot \textbf{MCLBuddy} using \textbf{NLP} techniques to automate employee query handling.}
+      \resumeItem{Trained models with \textbf{ANN}, \textbf{RNN}, \textbf{Bi-LSTM}, and \textbf{transformers} for accurate, context-aware responses.}
+      \resumeItem{Created and cleaned a domain-specific dataset from internal HR documents and FAQs.}
+      \resumeItem{Used \textbf{FAISS} for fast semantic search and applied \textbf{text preprocessing} and \textbf{embedding} techniques.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-16pt}
+
+%-----------PROJECTS-----------%
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Diamond Price Prediction}{June 2025}
+    {Python, Scikit-learn, Flask, Data Pipelines}{\href{https://github.com/siddhivdash/Diamond-Price-Prediction}{GitHub} ~|~ \href{https://diamond-price-prediction-8sv3.onrender.com/}{Deployed Application}}
+    \resumeItemListStart
+      \resumeItem{Developed an end-to-end \textbf{regression model} to predict diamond prices using attributes like \textbf{carat}, \textbf{cut}, \textbf{color}, \textbf{clarity}, and \textbf{dimensions}.}
+      \resumeItem{Performed \textbf{EDA} and \textbf{feature engineering} using libraries such as \textbf{Pandas}, \textbf{NumPy}, \textbf{Seaborn}, and \textbf{Matplotlib}.}
+      \resumeItem{Trained and evaluated multiple models including \textbf{Linear Regression}, \textbf{Ridge}, \textbf{Lasso}, \textbf{ElasticNet}, and \textbf{Random Forest}.}
+      \resumeItem{Used evaluation metrics like \textbf{RMSE}, \textbf{MAE}, and \textbf{R\^2 Score} to identify the best-performing model.}
+      \resumeItem{Deployed the selected model using a \textbf{Flask API} for real-time prediction through a web interface.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Diabetes Prediction}{May 2025}
+    {Python, Scikit‑learn, Pandas}{\href{https://github.com/siddhivdash/Diabetes-Prediction-By-Testing-Different-ML-Algorithm}{GitHub}}
+    \resumeItemListStart
+      \resumeItem{Built and compared models like \textbf{Logistic Regression}, \textbf{KNN}, \textbf{SVM}, \textbf{Decision Tree}, and \textbf{Random Forest} on the Pima Indians Diabetes Dataset.}
+      \resumeItem{Performed \textbf{EDA}, \textbf{data preprocessing}, and \textbf{feature scaling} using \textbf{Pandas} and \textbf{NumPy}.}
+      \resumeItem{Evaluated models using \textbf{accuracy}, \textbf{F1-score}, with \textbf{Random Forest} achieving the best performance.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+   
+\vspace{-16pt}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.35in, itemsep=0pt, label={\tiny$\bullet$}]
+  \item \textbf{Languages}: Python, SQL, C
+  \item \textbf{ML/DL Libraries}: Scikit-learn, TensorFlow, Keras, XGBoost
+  \item \textbf{Data Analysis/Visualization}: NumPy, Pandas, Matplotlib, Seaborn
+  \item \textbf{Concepts}: Regression, Classification, Clustering, CNN, RNN, Model Evaluation
+  \item \textbf{Tools}: Jupyter Notebook, Google Colab, Git, GitHub, Anaconda
+  \item \textbf{Deployment}: Flask, REST APIs
+  \item \textbf{Databases}: MySQL, MongoDB
+\end{itemize}
+\vspace{-16pt}
+
+
+
+%-----------INVOLVEMENT---------------
+\section{Extracurricular Activities}
+      
+       \resumeItemListStart
+                \resumeItem{\textbf{Tata Group -- Data Analytics Virtual Experience (Aug 2025)} -- Applied GenAI in EDA, risk modeling, and AI-driven collections strategy design for Financial Services case study.}
+                \resumeItem{Earned the \textbf{LeetCode 50 Days Badge 2025} for solving problems consistently for over 50 days, showcasing strong commitment to algorithmic problem solving.}
+                \resumeItem{Contributed to \textbf{Aaruush}, a national-level technical fest, as a graphic designer, creating visually appealing posters and promotional materials using \textbf{Adobe Photoshop}.}
+        \resumeItemListEnd
+        
+
+
+
+\end{document}
